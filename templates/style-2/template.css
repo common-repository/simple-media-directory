@@ -1,0 +1,208 @@
+/*style-2*/
+.qcsmd-list-column.style-2 .smd-ca-menu {
+    margin: 20px auto;
+    padding: 0;
+    width: 100%;
+}
+
+.qcsmd-section-title{
+    font-size: 24px;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-menu li {
+    background: #fff none repeat scroll 0 0;
+    border-left: 10px solid #000;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    height: 100px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    transition: all 300ms ease-in-out 0s;
+    width: 100%;
+	position: relative;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-menu li a {
+    color: #333;
+    display: block;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    border-bottom: medium none;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-icon{
+    left: 20px;
+    top: 28px;
+    position: absolute;
+    text-align: center;
+    transition: all 300ms linear 0s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.qcsmd-list-column.style-2 .smd-featured-section {
+  bottom: 1px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 35px 25px;
+	border-color: transparent transparent #FFEB3B transparent;
+
+}
+.qcsmd-list-column.style-2 .smd-featured-section i {
+	position: absolute;
+	left: -10px;
+	top: 17px;
+	color: #3d7dfc;
+}
+.qcsmd-list-column.style-2 .smd-ca-icon img{
+    width: 40px;
+    height: 40px;
+    transition: all 300ms linear 0s;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-content {
+    height: 60px;
+    left: 80px;
+    position: absolute;
+    top: 20px;
+}
+
+.smd-ca-main, .qcsmd-list-column.style-2 .smd-ca-sub {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-main {
+  font-size: 26px ;
+  transition: all 300ms linear 0s;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-sub {
+  color: #666;
+  font-size: 14px ;
+  transition: all 300ms linear 0s;
+	padding-top: 6px ;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-menu li:hover {
+  background: #000 none repeat scroll 0 0;
+  border-color: #fff004;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-menu li:hover .smd-ca-icon{
+  width: 50px;
+  height: 50px;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-menu li:hover .smd-ca-icon img{
+  color: #fff004;
+  width: 50px;
+  height: 50px;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-menu li:hover .smd-ca-main {
+  color: #fff004;
+  font-size: 14px ;
+	padding-top: 3px ;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-menu li:hover .smd-ca-sub {
+  color: #fff;
+  font-size: 16px ;
+	padding-top: 10px ;
+}
+
+.qcsmd-list-column.style-2 .smd-ca-main.subtitle-absent {
+  margin-top: 10px ;
+}
+
+/*Upvote Section*/
+.qcsmd-list-column.style-2 .smd-upvote-section {
+    height: 100% ;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    font-size: 12px;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.qcsmd-list-column.style-2 .smd-upvote-btn.smd-upvote-on:hover, .qcsmd-list-column.style-2 .smd-ca-menu li:hover .smd-upvote-btn{
+  cursor: pointer;
+}
+
+.qcsmd-list-column.style-2 .smd-upvote-btn, .qcsmd-list-column.style-2 .smd-upvote-count{
+  display: block;
+}
+
+.qcsmd-list-column.style-2 .smd-upvote-btn {
+  text-align: center;
+  
+  width: 100%;
+  z-index: 805;
+}
+
+.qcsmd-list-column.style-2 .smd-upvote-count {
+  font-size: 10px;
+  width: 100%;
+  margin-top: -5px;
+  z-index: 800;
+}
+
+.qcsmd-list-column.style-2 .smd-upvote-section .smd-upvote-btn, .qcsmd-list-column.style-2 .smd-upvote-section .smd-upvote-count {
+  color: #666;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.qcsmd-list-column.style-2 .smd-upvote-section .smd-upvote-btn:hover, .qcsmd-list-column.style-2 .smd-ca-menu li:hover .smd-upvote-btn, .qcsmd-list-column.style-2 .smd-ca-menu li:hover .smd-upvote-count{
+  color: #fff;
+}
+
+/*RTL CSS*/
+.direction-rtl .qc-grid-item, .direction-rtl .qc-grid-item h3, .direction-rtl .qc-grid-item ul li, .direction-rtl .qc-grid-item ul li a, .qc-grid-item ul li span 
+{
+  direction: rtl ;
+}
+
+.direction-rtl .qc-grid-item .smd-ca-icon {
+  left: auto;
+  right: 20px;
+  direction: rtl ;
+}
+
+.direction-rtl .qc-grid-item .smd-ca-content {
+  direction: rtl;
+  left: auto;
+  right: 80px;
+}
+
+.direction-rtl .qc-grid-item .smd-ca-content .smd-ca-main, .direction-rtl .qc-grid-item .smd-ca-content .smd-ca-sub{
+  direction: rtl ;
+  text-align: right ;  
+}
+
+.direction-rtl .smd-upvote-section {
+  left: 10px ;
+  right: auto ;
+}
